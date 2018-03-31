@@ -1,0 +1,29 @@
+#controls{
+    width:50vw;
+    height:auto;
+}
+
+
+.myinputs{
+    width: 50px;
+}
+
+#bnumber{
+    color:white;
+    background-color: black;
+}
+
+#brandom{
+    background-color: pink;
+}
+#bplus{
+    color:white;
+    background-color: darkgrey;
+}
+
+
+.boxes {
+    margin: 10px;
+    display:inline-block;
+}
+
