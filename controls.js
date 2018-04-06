@@ -77,6 +77,10 @@ function createFace(){
         newMouth.style.width = mouth.style.width;
         newMouth.style.top = mouth.style.top;
         newMouth.style.margin = "auto";
+    
+newDiv.addEventListener("click", function() {       
+    dispDiv.removeChild(this); 
+});
 }
 
 function randomFace(){
@@ -175,10 +179,3 @@ stop.addEventListener("click", function(){
     clearInterval(autorandomize);
 });
 
-//BONUS
-
-//dispDiv.addEventListener("click", function {
-//                         alert("hi");
-//     var rem = document.getElementById("newDiv"); 
-//rem.removeChild(list.childNodes[0]);  
-//});
